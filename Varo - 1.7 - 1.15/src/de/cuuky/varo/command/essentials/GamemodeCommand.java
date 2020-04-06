@@ -61,7 +61,7 @@ public class GamemodeCommand implements CommandExecutor {
 				break;
 			case 3:
 				if(!VersionUtils.getVersion().isHigherThan(BukkitVersion.ONE_7)) {
-					sender.sendMessage(Main.getPrefix() + "Nicht verfuegbar vor der 1.8!");
+					sender.sendMessage(Main.getPrefix() + "Nicht verfügbar vor der 1.8!");
 					return false;
 				}
 

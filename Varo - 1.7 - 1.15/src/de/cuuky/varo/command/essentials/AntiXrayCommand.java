@@ -94,7 +94,7 @@ public class AntiXrayCommand implements CommandExecutor {
 		}
 
 		if(xrayAvailable == 2) {
-			sender.sendMessage(Main.getPrefix() + "In deiner Serverversion ist kein Anti-Xray verfuegbar.");
+			sender.sendMessage(Main.getPrefix() + "In deiner Serverversion ist kein Anti-Xray verfügbar.");
 			return false;
 		}
 
